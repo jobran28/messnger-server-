@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-OPENAI_API_KEY = "sk-proj-mhHVqwhz49vadko1SClPT3BlbkFJR9klPbxKLXDgWfGPYZZl"
+OPENAI_API_KEY = "sk-proj-nNEXILMA9dawvTQibi0OT3BlbkFJBpMOa5biScmbP4alqASd"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 def prepare_openai_messages(messages):
