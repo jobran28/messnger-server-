@@ -8,7 +8,7 @@ import requests
 router = APIRouter()
 
 VERIFY_TOKEN = "myverfiftoken"
-FB_ACCESS_TOKEN = "EAALfBwWVNikBOws6A7XAqsbOoemryHsfBPx2p8QruAyVbn5fC9bQHqkqQhJrHOr8xxP4pKuYMAvbXnrgPBnPKaf68bXHZCTGCGW8ZBhizECA3lYCa6sCTksTRqYNQbOZCqvT88ZA5ZBFC4QfGQwn3o5eXBcBRJDqCP6MttgNVHGBjtBx3ZBWFBEMyYi3Nz5bQwSwZDZD"
+FB_ACCESS_TOKEN = "EAALfBwWVNikBO17VdksPrzAgZCwdlAt4ycloKzbeduQv12wfvy9kXR8BNRWZCVFStrT51UmIOZBl0nDiUu2ejUQenLshZA5xsbbsnYiteDLajAMjHZBueEova8hx0Yio6gTDyxUSm5U41wZB7XpSxNjCNwssNRd2TcwT2CNAZBxI2oBRpE6QWqTTSS1m9SPQ012fAZDZD"
 
 @router.get("/webhook")
 async def verify_token(
