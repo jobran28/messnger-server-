@@ -16,4 +16,4 @@ def get_openai_response(messages):
         model="gpt-4o-mini",
         messages=messages
     )
-    return response["choices"][0]["message"]["content"]
+    return response["choices"][0].message.content 
